@@ -1,0 +1,18 @@
+_id: env_1967256bdc9fbb8e5d6282abc632b21d746f6b14
+type: Environment
+parentId: wrk_dd042f111f124cf2b143095d7605e4ca
+modified: 1658776994366
+created: 1658776204325
+name: Base Environment
+data:
+  host: 127.0.0.1
+  port: "8080"
+  link: http://{{ _.host }}:{{ _.port }}
+dataPropertyOrder:
+  "&":
+    - host
+    - port
+    - link
+color: null
+isPrivate: false
+metaSortKey: 1658776204325

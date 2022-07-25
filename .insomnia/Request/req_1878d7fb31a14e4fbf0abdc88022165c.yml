@@ -1,0 +1,21 @@
+_id: req_1878d7fb31a14e4fbf0abdc88022165c
+type: Request
+parentId: wrk_dd042f111f124cf2b143095d7605e4ca
+modified: 1658777511636
+created: 1658776339219
+url: "{{ _.link }}/sticker"
+name: Get medium sticker
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1658776339220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

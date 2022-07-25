@@ -1,0 +1,29 @@
+_id: req_780c3d0586d4432ab86e1dda9e8170ce
+type: Request
+parentId: wrk_dd042f111f124cf2b143095d7605e4ca
+modified: 1658778180112
+created: 1658777514120
+url: "{{ _.link }}/sticker/321"
+name: Post new sticker
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"drawing": "🏹"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_44768b05e770493bb2e6909559d8b4eb
+authentication: {}
+metaSortKey: -1658777514120
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
